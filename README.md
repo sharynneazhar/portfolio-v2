@@ -1,2 +1,0 @@
-# sharynneazhar
-Personal Website

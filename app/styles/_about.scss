@@ -1,0 +1,74 @@
+.blockquote {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+
+  .blockquote-text {
+    padding: 10px;
+    margin: 0 0 0 40px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    font-size: 16px;
+    color: $char;
+  }
+}
+
+.blockquote::before {
+  display: block;
+  height: 1px;
+  position: relative;
+  top: -20px;
+  font-size: 400%;
+  content: "\275D";
+  margin-left: -10px;
+  opacity: 0.5;
+}
+
+.about {
+  display: flex;
+  padding: 10px;
+
+  .about-text {
+      flex: 1;
+  }
+
+  .about-text > p {
+    margin-bottom: 20px;
+    line-height: 170%;
+    font-size: 14px;
+  }
+
+  .about-text > p > a {
+    color: $blue;
+  }
+}
+
+.twitter {
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+  .blockquote::before {
+    font-size: 300%;
+  }
+
+  .blockquote {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+
+    .blockquote-text {
+      margin: 0 0 0 20px;
+      letter-spacing: 1px;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+  }
+
+  .about-text > p {
+    font-size: 12px;
+  }
+}

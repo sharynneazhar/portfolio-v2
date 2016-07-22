@@ -1,0 +1,63 @@
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/images/splash.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 55vh;
+}
+
+.splash-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(250,250,250,0.8);
+  text-align: center;
+  color: $white;
+}
+
+.splash-title {
+  margin-bottom: 90px;
+  font-family: Rock Salt;
+  font-size: 54px;
+  color: $char;
+}
+
+.social-links img {
+  height: 38px;
+  width: 38px;
+  margin: 20px 30px;
+  opacity: .9;
+}
+
+.social-links img:hover {
+  opacity: .5;
+}
+
+@media (max-width: 992px) {
+  .splash-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .splash {
+    height: 30vh;
+  }
+
+  .splash-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .social-links img {
+    height: 28px;
+    width: 28px;
+    margin: 15px;
+  }
+}

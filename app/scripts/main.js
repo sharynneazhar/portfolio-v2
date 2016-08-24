@@ -17,7 +17,7 @@ $(document).ready(function() {
     ],
     datasets: [{
       backgroundColor: '#0073e5',
-      data: [85, 65, 95, 85, 62, 60, 80, 45]
+      data: [75, 85, 95, 85, 78, 60, 80, 45]
     }]
   }
 

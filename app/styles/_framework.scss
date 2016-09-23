@@ -1,11 +1,12 @@
 * {
   font-family: Open Sans, sans-serif;
-  font-weight: 600;
-  color: $char;
+  color: $white;
   letter-spacing: 1px;
 }
 
 body {
+  background-image: url('../assets/images/stardust.png');
+  background-repeat: repeat;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -16,7 +17,7 @@ a, a:hover {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
 }
 
 .header {
@@ -64,25 +65,9 @@ a, a:hover {
   }
 }
 
-.page-title {
-  background-color: $green;
-  padding: 20px 15px;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: $white;
-}
-
 .footer {
   margin-top: 40px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid $border;
-}
-
-@media (max-width: 768px) {
-  .page-title {
-    font-size: 16px;
-    padding: 10px;
-  }
 }

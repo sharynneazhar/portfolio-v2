@@ -8,6 +8,7 @@ $(document).ready(function() {
   // handle skills section on resume
   Chart.defaults.global.legend.display = false;
   Chart.defaults.global.tooltips.enabled = false;
+  Chart.defaults.global.defaultFontColor = '#fff';
 
   var barChartData = {
     labels: [
@@ -16,7 +17,7 @@ $(document).ready(function() {
       'Databases'
     ],
     datasets: [{
-      backgroundColor: '#0073e5',
+      backgroundColor: '#ff6666',
       data: [75, 85, 95, 85, 78, 60, 80, 45]
     }]
   }

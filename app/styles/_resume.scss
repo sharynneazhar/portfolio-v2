@@ -4,8 +4,7 @@
 
 .resume-content {
   margin: 0;
-  padding: 20px;
-  color: $char;
+  color: $white;
 }
 
 .resume-header {
@@ -23,6 +22,7 @@
     flex: 4;
 
     h4 {
+      color: $pink;
       text-align: left;
       font-weight: 600;
       margin-top: 0;
@@ -30,31 +30,14 @@
     }
 
     h4 a {
-      color: $blue;
+      color: $pink;
+    }
+
+    p {
+      font-weight: 300;
     }
   }
 
-  .resume-icon {
-    align-self: center;
-    height: 65px;
-    width: 65px;
-    margin-right: 10px;
-    border-radius: 100%;
-    text-align: center;
-
-    img {
-      height: 65px;
-      width: 65px;
-      margin-right: 2px;
-    }
-
-    .udacity {
-      margin-right: 2px;
-      margin-top: 5px;
-      height: 50px;
-      width: 50px;
-    }
-  }
 }
 
 .resume-description {
@@ -63,11 +46,13 @@
 
   ul {
     padding-left: 20px;
+    margin-bottom: 50px;
   }
 
   li {
-    margin-top: 10px;
-    font-size: 13px;
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 300;
   }
 }
 
@@ -80,12 +65,20 @@ canvas {
   margin-bottom: 30px;
 }
 
-@media (max-width: 662px) {
+@media (max-width: 768px) {
   .resume-header {
     font-size: 14px;
   }
 
   h4 {
+    font-size: 12px;
+  }
+
+  .resume-description {
+    display: none;
+  }
+
+  .resume-info p {
     font-size: 12px;
   }
 }

@@ -8,9 +8,8 @@
     padding: 10px;
     margin: 0 0 0 40px;
     letter-spacing: 1px;
-    opacity: 0.6;
     font-size: 16px;
-    color: $char;
+    color: $white;
   }
 }
 
@@ -22,7 +21,6 @@
   font-size: 400%;
   content: "\275D";
   margin-left: -10px;
-  opacity: 0.5;
 }
 
 .about {
@@ -40,13 +38,8 @@
   }
 
   .about-text > p > a {
-    color: $blue;
+    color: $pink;
   }
-}
-
-.twitter {
-    margin-top: -10px;
-    margin-left: 80px;
 }
 
 @media (max-width: 768px) {
@@ -70,5 +63,6 @@
 
   .about-text > p {
     font-size: 12px;
+    text-align: center;
   }
 }

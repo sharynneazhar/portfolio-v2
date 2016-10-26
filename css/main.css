@@ -32,7 +32,7 @@ Navigation
 ========================================================================== */
 
 .navbar {
-  width: 100%;
+  width: 100vw;
 }
 .navbar-default {
   background: rgba(255, 255, 255, 0.85);
@@ -64,7 +64,7 @@ Layout
 
 #slide-welcome {
   z-index: -2;
-  width: 100%;
+  width: 100vw;
   height: 100% !important;
   position: fixed;
   text-align: center;
@@ -76,7 +76,7 @@ Layout
 }
 
 #page-welcome {
-  width: 100%;
+  width: 100vw;
   height: 100% !important;
   text-align: center;
   -webkit-background-size: cover;
@@ -220,7 +220,6 @@ Portfolio
 }
 .isotope, .isotope .isotope-item {
   /* change duration value to whatever you like */
-
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -ms-transition-duration: 0.8s;
@@ -276,7 +275,6 @@ Vegas slider
   image-rendering: optimizeQuality;
   max-width: none !important;
   /* counteracts global img modification by twitter bootstrap library */
-
   z-index: -2;
 }
 .vegas-overlay, .vegas-background {
@@ -592,6 +590,7 @@ Social icons
 .btn-github:hover {
   color: #333333;
 }
+
 /* ==========================================================================
 Helper classes
 ========================================================================== */
@@ -610,6 +609,7 @@ Helper classes
   margin-right: auto;
   float: none;
 }
+
 /* ==========================================================================
 Responsive Settings
 ========================================================================== */
@@ -620,10 +620,11 @@ Responsive Settings
   }
 }
 @media (max-width: 479px) {
-  slide-welcome header h1 {
+  #page-welcome header h1 {
+    padding-top: 50px;
     font-size: 2em;
   }
-  slide-welcome header p {
+  #page-welcome header p {
     font-size: 1em;
     line-height: 3em;
   }
@@ -633,7 +634,12 @@ Responsive Settings
   .section-header p {
     font-size: 1.2em;
   }
-  #page-skills {
+  .profile-education {
+    display: none;
+  }
+  #page-profile, #page-skills, #page-projects, #page-experience {
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
   }
   #grid {
@@ -641,5 +647,15 @@ Responsive Settings
   }
   #page-profile .profile {
     margin: 0 auto 20px auto;
+  }
+  #page-projects .project {
+    padding: 10px;
+  }
+  #page-contact form {
+    width: 90%;
+    margin: auto;
+  }
+  #page-footer {
+    padding: 15px 0;
   }
 }

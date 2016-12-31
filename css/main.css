@@ -266,7 +266,8 @@ Vegas slider
   z-index: 0;
 }
 .vegas-overlay {
-  background: transparent url(../img/overlays/16.png);
+  /*background: transparent url(../img/overlays/05.png);*/
+  background-color: #333;
   opacity: 0.5;
 
 }
@@ -527,7 +528,7 @@ Social icons
   margin-bottom: 15px;
 }
 .social-icons .btn.btn-clear {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 .btn-round {
   border-radius: 50%;

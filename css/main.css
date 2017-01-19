@@ -76,7 +76,6 @@ Layout
 }
 
 #page-welcome {
-  width: 100vw;
   height: 100% !important;
   text-align: center;
   -webkit-background-size: cover;
@@ -115,7 +114,7 @@ Layout
   border: 5px solid #333;
   width: 225px;
   height: 225px;
-  margin: 0 20px 20px 0;
+  margin: 8px 20px 20px 0;
 }
 #page-profile .profile-bio {
   font-size: 15px;
@@ -136,15 +135,46 @@ Layout
   padding: 55px 0 75px 0;
   background: #fff;
 }
-#page-projects {
+#page-design {
   padding: 55px 0 75px 0;
   background: #f7f7f7;
 }
-#page-projects .project-tools {
+#page-design .design-description {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(85, 169, 150, .95);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+#page-design .design-description:hover {
+  opacity: 1;
+}
+#page-design .design-description span {
+  padding: 65px;
+  color: #fff;
+}
+#page-design .row div {
+  padding: 0;
+  margin-right: 15px;
+}
+#page-code {
+  padding: 55px 0 75px 0;
+  background: #fff;
+}
+#page-code .project-tools {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#page-projects .project-tools .btn {
+#page-code .project-tools .btn {
   margin-right: 5px;
 }
 #page-contact {
@@ -617,9 +647,12 @@ Helper classes
 Responsive Settings
 ========================================================================== */
 
-@media(max-width:992px) {
+@media (max-width:992px) {
   #page-profile .profile {
     margin: 0 auto 20px auto;
+  }
+  #page-design img:not(:first-of-type) {
+    margin-top: 15px;
   }
 }
 @media (max-width: 479px) {
@@ -640,7 +673,7 @@ Responsive Settings
   .profile-education {
     display: none;
   }
-  #page-profile, #page-skills, #page-projects, #page-experience {
+  #page-profile, #page-skills, #page-code, #page-experience {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
@@ -651,8 +684,11 @@ Responsive Settings
   #page-profile .profile {
     margin: 0 auto 20px auto;
   }
-  #page-projects .project {
+  #page-code .project {
     padding: 10px;
+  }
+  #page-design img:not(:first-of-type) {
+    margin-top: 15px;
   }
   #page-contact form {
     width: 90%;

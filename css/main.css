@@ -408,7 +408,7 @@ Forms
   -webkit-box-shadow: none;
 }
 .btn.btn-default {
-  margin: 40px auto 0;
+  margin: 40px auto;
   background: transparent;
   position: relative;
   color: #fff;
@@ -622,6 +622,9 @@ Social icons
 }
 .btn-github:hover {
   color: #333333;
+}
+.btn-tumblr:hover {
+  color: #35465c;
 }
 
 /* ==========================================================================

@@ -10,8 +10,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal website">
   <meta name="author" content="Sharynne Azhar">
+  <meta name="description" content="Software developer based in Kansas City.">
+  <meta name="keywords" content="resume portfolio university of kansas software developer">
+  <meta property="og:title" content="Sharynne Azhar"/>
+  <meta property="og:image" content="http://sharynneazhar.com/img/profile.png" />
+  <meta property="og:site_name" content="Sharynne Azhar Personal Website"/>
+  <meta property="og:description" content="Software developer based in Kansas City."/>
 
   <title>Sharynne Azhar</title>
 
@@ -63,6 +68,7 @@
           <li><a href="#page-profile">About</a></li>
           <li><a href="#page-design">Design</a></li>
           <li><a href="#page-code">Code</a></li>
+          <li><a href="http://blog.sharynneazhar.com" target="_blank" class="external">Blog</a></li>
           <li><a href="#page-contact">Contact</a></li>
         </ul>
       </div>
@@ -72,7 +78,7 @@
   <!-- landing section -->
   <div id="slide-welcome"></div>
   <section id="page-welcome" class="page-welcome">
-    <div class="container">
+    <div class="container text-center">
       <header class="centered">
         <h1>Sharynne Azhar</h1>
         <p>SOFTWARE DEVELOPER</p>
@@ -81,10 +87,11 @@
           <a href="https://www.linkedin.com/in/sharynneazhar" class="btn btn-round btn-clear btn-linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
           <a href="https://twitter.com/sharynneazhar" class="btn btn-round btn-clear btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://www.instagram.com/sharynneazhar" class="btn btn-round btn-clear btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="https://sharynneazhar.tumblr.com/" target="_blank" class="btn btn-round btn-clear btn-tumblr"><i class="fa fa-tumblr"></i></a>
+          <a href="https://blog.sharynneazhar.com/" target="_blank" class="btn btn-round btn-clear btn-tumblr"><i class="fa fa-tumblr"></i></a>
         </div>
       </header>
-      <a href="#page-profile" class="btn btn-default hire-me">About Me</a>
+      <!-- <a href="#page-profile" class="btn btn-default hire-me">About Me</a> -->
+      <a href="#page-profile" class="hire-me"><i class="fa fa-caret-down"></i></a>
     </div>
   </section>
   <!-- /landing section -->
@@ -98,7 +105,7 @@
         <p class="section-subtitle">Hi, I'm Sharynne and I'm addicted to coding.</p>
       </header>
       <div class="row">
-        <div class="col-md-3" style="padding-left:30px;">
+        <div class="col-lg-3 visible-lg-block" style="padding-left:30px;">
           <div class="profile"><img src="img/profile.png" alt="profile" /></div>
           <div class="profile-education">
             <p>
@@ -109,7 +116,7 @@
             <a href="resources/Azhar_Resume_CS.pdf" target="_blank">Download Resume</a>
           </div>
         </div>
-        <div class="col-md-9 profile-bio">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 profile-bio">
           <p>I am a Computer Science student at the <a href="http://ku.edu/" target="_blank">University of Kansas</a>, software engineering intern at <a href="http://brandnewbox.com/" target="_blank">Brand New Box</a>, and programming mentor at <a href="https://ecbcdev.wordpress.com/" target="_blank">DevelopECBC</a>. My career goal is to design and develop software that is both innovative and impactful, especially in the health and education industries.
           </p>
           <p>I found curiosity in programming in my junior year of college in an R-based stats class. I was so amazed by how a few simple lines of code could turn boring data sets into awesome graphs. I became curious about what else the R language can do, so I started exploring different tutorials and even learned how to read documentation! Eventually, I wanted to learn more about how programming works.
@@ -131,24 +138,28 @@
         <div class="spacer"></div>
         <p class="section-subtitle">Recent graphic design work.</p>
       </header>
-      <div class="row center-block text-center">
-        <div class="col-md-5 col-md-offset-1">
-          <img src="img/portfolio/top-setup.jpg" alt="Top Setup" class="img-responsive">
-          <span class="design-description">
-            <span>
-              <h3>Top Setup</h3>
-              <p>Showcase of the top gaming and office setups on the internet.</p>
-            </span>
-          </span>
+      <div class="design-group-container center-block text-center">
+        <div class="design-group">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/portfolio/top-setup.jpg" alt="Top Setup">
+            <a class="info" href="#">
+              <div class="overlay">
+                <h2>Top Setup</h2>
+                <p>Showcase of the top gaming and office setups on the internet.</p>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="col-md-5">
-          <img src="img/portfolio/rate-my-campus.jpg" alt="Rate My Campus" class="img-responsive">
-          <span class="design-description">
-            <span>
-              <h3>Rate My Campus</h3>
-              <p>College campus reviews based on faculty, staff, and student feedback.</p>
-            </span>
-          </span>
+        <div class="design-group">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/portfolio/rate-my-campus.jpg" alt="Top Setup">
+            <a class="info" href="#">
+              <div class="overlay">
+                <h2>Rate My Campus</h2>
+                <p>College campus reviews based on faculty, staff, and student feedback.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -281,6 +292,7 @@
             <a href="https://www.linkedin.com/in/sharynneazhar" class="btn btn-round btn-clear btn-linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
             <a href="https://twitter.com/sharynneazhar" class="btn btn-round btn-clear btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="https://www.instagram.com/sharynneazhar" class="btn btn-round btn-clear btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://blog.sharynneazhar.com/" target="_blank" class="btn btn-round btn-clear btn-tumblr"><i class="fa fa-tumblr"></i></a>
           </div>
         </div>
       </div>

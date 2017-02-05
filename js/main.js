@@ -68,7 +68,7 @@ $(document).ready(function() {
     changeHash: false,
     scrollThreshold: 0.5,
     scrollSpeed: 750,
-    filter: "",
+    filter: ":not(.external)",
     easing: "swing"
   });
 

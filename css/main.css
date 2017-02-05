@@ -107,15 +107,6 @@ Layout
   line-height: 3em;
   text-transform: uppercase;
 }
-#page-welcome .fa-caret-down {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10%;
-  color: #fff;
-  font-size: 64px;
-  opacity: 0.6;
-}
 #page-profile {
   padding: 75px 0;
   background: #fff;

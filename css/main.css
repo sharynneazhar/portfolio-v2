@@ -147,15 +147,19 @@ Layout
   justify-content: center;
 }
 #page-design .design-group {
-  padding: 10px;
+  padding: 5px;
+  margin: 0 10px;
 }
 #page-design img {
-  height: 200px;
+  height: 300px;
   width: auto;
 }
 #page-code {
   padding: 55px 0 75px 0;
   background: #fff;
+}
+#page-code .project {
+  margin-bottom: 20px;
 }
 #page-code .project-tools {
   margin-top: 10px;
@@ -533,7 +537,7 @@ Forms
   color: fff;
 }
 .btn.btn-default.browse-more {
-  margin-top: 75px;
+  margin-top: 55px;
   border-color: #444c5c;
   color: #444c5c;
 }

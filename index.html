@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="author" content="Sharynne Azhar">
   <meta name="description" content="Software developer based in Kansas City.">
   <meta name="keywords" content="resume portfolio university of kansas software developer">
@@ -20,39 +14,25 @@
 
   <title>Sharynne Azhar</title>
 
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Fonts from Font Awsome -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!-- Magnific popup -->
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <!-- Vegas slider -->
-  <link rel="stylesheet" href="css/vegas.min.css">
-  <!-- Custom styles for this template -->
+  
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/color.css">
 
-  <!-- Color styles -->
-  <link rel="stylesheet" href="css/colors/green.css">
-
-  <!-- Feature detection -->
-  <script src="js/modernizr-2.6.2.min.js"></script>
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
-
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
-  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100' rel='stylesheet' type='text/css'>
+  
 </head>
-
 <body>
-  <div class="navbar navbar-default navbar-static-top" role="navigation">
+  <!-- <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,7 +45,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav" id="main-menu">
           <li><a href="#page-welcome">Home</a></li>
-          <li><a href="#page-profile">About</a></li>
+          <li><a href="#page-about">About</a></li>
           <li><a href="#page-design">Design</a></li>
           <li><a href="#page-code">Projects</a></li>
           <li><a href="#page-contact">Contact</a></li>
@@ -73,30 +53,23 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <!-- landing section -->
-  <div id="slide-welcome"></div>
+  <!-- welcome section -->
+  <div id="background-img"></div>
   <section id="page-welcome" class="page-welcome">
     <div class="container text-center">
       <header class="centered">
-        <h1>Sharynne Azhar</h1>
-        <p>SOFTWARE DEVELOPER</p>
-        <div class="social-icons">
-          <a href="https://github.com/sharynneazhar" class="btn btn-round btn-clear btn-github" target="_blank"><i class="fa fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/sharynneazhar" class="btn btn-round btn-clear btn-linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-          <a href="https://twitter.com/sharynneazhar" class="btn btn-round btn-clear btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-          <a href="https://www.instagram.com/sharynneazhar" class="btn btn-round btn-clear btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="http://blog.sharynneazhar.com/" target="_blank" class="btn btn-round btn-clear btn-tumblr"><i class="fa fa-tumblr"></i></a>
-        </div>
+        <h1>I'm <span>Sharynne</span></h1>
+        <p>Developer. Designer.</p>
       </header>
-      <a href="#page-profile" class="btn btn-default hire-me">About Me</a>
+      <a href="#page-about" class="btn btn-outline-green reverse about-me"><i class="fa fa-arrow-down"></i>About Me</a>
     </div>
   </section>
-  <!-- /landing section -->
+  <!-- /welcome section -->
 
   <!-- about section -->
-  <section id="page-profile" class="page-profile">
+  <section id="page-about" class="page-about">
     <div class="container">
       <header class="section-header">
         <h2 class="section-title">About Me</h2>
@@ -106,23 +79,11 @@
       <div class="row">
         <div class="col-lg-3 visible-lg-block" style="padding-left:30px;">
           <div class="profile"><img src="img/profile.png" alt="profile" /></div>
-          <div class="profile-education">
-            <p>
-              <strong>University of Kansas</strong> <br>
-              Computer Science, B.S. / 2018 <br>
-              Psychology, B.A. / 2015
-            </p>
-            <a href="resources/Azhar_Resume_CS.pdf" target="_blank">Download Resume</a>
-          </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 profile-bio">
-          <p>I am a Computer Science student at the <a href="http://ku.edu/" target="_blank">University of Kansas</a>, software engineering intern at <a href="https://www.cerner.com/" target="_blank">Cerner</a>, and programming mentor at <a href="https://ecbcdev.wordpress.com/" target="_blank">DevelopECBC</a>. My career goal is to design and develop software that is both innovative and impactful, especially in the health and education industries.
-          </p>
-          <p>I found curiosity in programming in my junior year of college in an R-based stats class. I was so amazed by how a few simple lines of code could turn boring data sets into awesome graphs. I became curious about what else the R language can do, so I started exploring different tutorials and even learned how to read documentation! Eventually, I wanted to learn more about how programming works.
-          </p>
-          <p>In the next semester, I enrolled in an introductory C++ course. Hello World! Almost immediately, I knew this is what I wanted to do with my life. I love the combination of creativity and logic involved in writing code. So, long story short, I decided to go back to school for Computer Science. Since then, I have worked for KU as a student web developer, interned at PayIt as an iOS/Android developer, and founded DevelopECBC - a program designed to teach kids how to code.
-          </p>
-          <p>Outside programming, I am a big foodie and a gamer. I am also a Youth Leader at <a href="http://www.ecbckc.org/front" target="_blank">Emmanuel Chinese Baptist Church</a>. You can follow my adventures on <a href="https://www.instagram.com/heysharynne" target="_blank">Instagram</a>!</p>
+          <p style="margin-top:8px;">I am a Computer Science student at the <a href="http://ku.edu/" target="_blank">University of Kansas</a>, software engineering intern at <a href="https://www.cerner.com/" target="_blank">Cerner</a>, and programming mentor at <a href="https://ecbcdev.wordpress.com/" target="_blank">DevelopECBC</a>. My career goal is to design and develop software that is both innovative and impactful, especially in the health and education industries. Outside programming, I am a big foodie and a gamer. I am also a Youth Leader at <a href="http://www.ecbckc.org/front" target="_blank">Emmanuel Chinese Baptist Church</a>. You can follow my adventures on <a href="https://www.instagram.com/heysharynne" target="_blank">Instagram</a>!</p>
+          <a href="http://blog.sharynneazhar.com/" target="_blank" class="btn btn-dark-green reverse" style="margin-top:20px;"><i class="fa fa-link"></i>Visit Blog</a>
+          <a href="resources/Azhar_Resume_CS.pdf" target="_blank" class="btn btn-dark-green reverse" style="margin-top:20px;"><i class="fa fa-download"></i>Download Resume</a>
         </div>
       </div>
     </div>
@@ -131,16 +92,27 @@
 
   <!-- design section -->
   <section id="page-design" class="page-design">
-    <div class="container">
+    <div class="container-fluid">
       <header class="section-header">
         <h2 class="section-title">Design</h2>
         <div class="spacer"></div>
-        <p class="section-subtitle">Recent graphic design work.</p>
+        <p class="section-subtitle">Recent web and graphic design work.</p>
       </header>
       <div class="design-group-container center-block text-center">
         <div class="design-group">
           <div class="hovereffect">
-            <img class="img-responsive" src="img/portfolio/top-setup.jpg" alt="Top Setup">
+            <img class="img-responsive" src="img/portfolio/hana/hana.png" alt="Hana">
+            <a class="info" href="https://hana-jobs.herokuapp.com/">
+              <div class="overlay">
+                <h2>Hana</h2>
+                <p>On-demand staffing platform.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="design-group">
+          <div class="hovereffect">
+            <img class="img-responsive" src="img/portfolio/top-setup/top-setup-desktop.png" alt="Top Setup">
             <a class="info" href="https://topsetup.herokuapp.com/">
               <div class="overlay">
                 <h2>Top Setup</h2>
@@ -151,7 +123,7 @@
         </div>
         <div class="design-group">
           <div class="hovereffect">
-            <img class="img-responsive" src="img/portfolio/rate-my-campus.jpg" alt="Top Setup">
+            <img class="img-responsive" src="img/portfolio/rate-my-campus/rate-my-campus-home.png" alt="Rate My Campus">
             <a class="info" href="https://rate-my-campus.herokuapp.com/">
               <div class="overlay">
                 <h2>Rate My Campus</h2>
@@ -170,9 +142,9 @@
     <div class="container">
       <div class="row">
         <header class="section-header">
-          <h2 class="section-title"><span>Projects</span></h2>
+          <h2 class="section-title"><span>Code</span></h2>
           <div class="spacer"></div>
-          <p class="section-subtitle">Recent personal projects.</p>
+          <p class="section-subtitle">Recent code projects.</p>
         </header>
         <div class="row addBottomPad">
           <div class="col-md-4">
@@ -181,10 +153,10 @@
                 <h3>Hana</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">React</div>
-                <div class="btn btn-xs btn-green">GraphQL</div>
-                <div class="btn btn-xs btn-green">Apollo</div>
-                <div class="btn btn-xs btn-green">Algolia</div>
+                <div class="project-tools-item">React</div>
+                <div class="project-tools-item">GraphQL</div>
+                <div class="project-tools-item">Apollo</div>
+                <div class="project-tools-item">Algolia</div>
               </div>
               <p>On-demand staffing platform for various odd jobs in your local area. Users can find opportunities to earn extra money or post a job.</p>
               <a href="https://github.com/Hackbit/reactriot2017-hana">View On Github</a>
@@ -196,9 +168,9 @@
                 <h3>Top Setup</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">Ruby On Rails</div>
-                <div class="btn btn-xs btn-green">Bootstrap</div>
-                <div class="btn btn-xs btn-green">Heroku</div>
+                <div class="project-tools-item">Ruby On Rails</div>
+                <div class="project-tools-item">Bootstrap</div>
+                <div class="project-tools-item">Heroku</div>
               </div>
               <p>A website to showcase gaming and work setups from around the world. Users can upload photos, add a description, and post links to their setup gear.</p>
               <a href="https://github.com/sharynneazhar/topsetup">View On Github</a>
@@ -210,9 +182,9 @@
                 <h3>Rate My Campus</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">React</div>
-                <div class="btn btn-xs btn-green">MeteorJS</div>
-                <div class="btn btn-xs btn-green">MongoDB</div>
+                <div class="project-tools-item">React</div>
+                <div class="project-tools-item">MeteorJS</div>
+                <div class="project-tools-item">MongoDB</div>
               </div>
               <p>College campus reviews based on faculty, staff, and student feedback. Users can look up reviews or add their own ratings of campus buildings and its facilities.</p>
               <a href="https://github.com/sharynneazhar/eecs448-rate-my-campus">View On Github</a>
@@ -224,9 +196,9 @@
                 <h3>Codebuddies</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">Blaze</div>
-                <div class="btn btn-xs btn-green">MeteorJS</div>
-                <div class="btn btn-xs btn-green">MongoDB</div>
+                <div class="project-tools-item">Blaze</div>
+                <div class="project-tools-item">MeteorJS</div>
+                <div class="project-tools-item">MongoDB</div>
               </div>
               <p>An open-sourced and 100% community-built Google Hangouts platform. Users can connect on Slack and schedule hangouts to learn with each other.</p>
               <a href="https://github.com/codebuddiesdotorg/cb-v2-scratch">View On Github</a>
@@ -238,8 +210,8 @@
                 <h3>War</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">Python</div>
-                <div class="btn btn-xs btn-green">Google App Engine</div>
+                <div class="project-tools-item">Python</div>
+                <div class="project-tools-item">Google App Engine</div>
               </div>
               <p>A backend API service for the classic card game called War. Some API services include creating users, tracking player rankings, and sending game reminders.</p>
               <a href="https://github.com/sharynneazhar/FSND-Game-API-P7">View On Github</a>
@@ -251,11 +223,11 @@
                 <h3>Restaurant Manager</h3>
               </header>
               <div class="project-tools">
-                <div class="btn btn-xs btn-green">Bootstrap</div>
-                <div class="btn btn-xs btn-green">Python</div>
-                <div class="btn btn-xs btn-green">Flask</div>
-                <div class="btn btn-xs btn-green">SQL</div>
-                <div class="btn btn-xs btn-green">OAuth2</div>
+                <div class="project-tools-item">Bootstrap</div>
+                <div class="project-tools-item">Python</div>
+                <div class="project-tools-item">Flask</div>
+                <div class="project-tools-item">SQL</div>
+                <div class="project-tools-item">OAuth2</div>
               </div>
               <p>A restaurant manager tool where users can manage a list of restaurants.</p>
               <a href="https://github.com/sharynneazhar/FSND-Catalog-P5">View On Github</a>
@@ -264,7 +236,7 @@
         </div>
         <!-- end second row -->
         <div class="text-center">
-          <a href="https://github.com/sharynneazhar?tab=repositories" class="btn btn-default browse-more" target="_blank">Browse More Projects</a>
+          <a href="https://github.com/sharynneazhar?tab=repositories" class="btn btn-default browse-more" target="_blank"><i class="fa fa-link"></i>Browse More Projects</a>
         </div>
       </div>
     </div>
@@ -276,17 +248,17 @@
     <div class="container">
       <div class="row">
         <header class="section-header addBottomPad">
-          <h3 class="section-title"><span>Get In Touch</span></h3>
+          <h3 class="section-title"><span>Like What You See?</span></h3>
           <div class="spacer"></div>
         </header>
         <div class="col-sm-12 text-center">
-          <a class="contact-email" href="mailto:sharynneazhar@gmail.com">sharynneazhar@gmail.com</a>
+          <a href="mailto:sharynneazhar@gmail.com" target="_top" class="btn btn-outline-green reverse about-me"><i class="fa fa-paper-plane"></i>Hire Me</a>
           <div class="social-icons">
-            <a href="https://github.com/sharynneazhar" class="btn btn-round btn-clear btn-github" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/sharynneazhar" class="btn btn-round btn-clear btn-linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-            <a href="https://twitter.com/sharynneazhar" class="btn btn-round btn-clear btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.instagram.com/sharynneazhar" class="btn btn-round btn-clear btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://blog.sharynneazhar.com/" target="_blank" class="btn btn-round btn-clear btn-tumblr"><i class="fa fa-tumblr"></i></a>
+            <a href="https://github.com/sharynneazhar" target="_blank"><i class="fa fa-lg fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sharynneazhar" target="_blank"><i class="fa fa-lg fa-linkedin-square"></i></a>
+            <a href="https://twitter.com/sharynneazhar" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sharynneazhar" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+            <a href="https://blog.sharynneazhar.com" target="_blank"><i class="fa fa-lg fa-link"></i></a>
           </div>
         </div>
       </div>
@@ -317,22 +289,15 @@
 
     ga('create', 'UA-91479922-1', 'auto');
     ga('send', 'pageview');
-
   </script>
 
-
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/jquery.nav.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.easypiechart.min.js"></script>
-  <script src="js/vegas.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+    crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/31830dc8f3.js"></script>
+  <script src="js/scrollto.js"></script>
+  <script src="js/nav.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

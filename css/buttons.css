@@ -1,11 +1,28 @@
 /* ==========================================================================
 Buttons & icons
 ========================================================================== */
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 12px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.social-icons .fa {
+  color: #fff;
+}
+
 .icon-rotate {
   border: 1px solid #EEE;
-  color: #EEE;
   background: none;
-  background-color: none;
+  background-color: transparent;
   font-weight: bold;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
@@ -29,44 +46,41 @@ Buttons & icons
   color: #fff;
 }
 
-.btn-twitter:hover {
-  color: #2BA9E0;
+.btn-twitter:hover, .btn-twitter:hover * {
+  color: #2BA9E0 !important;
 }
 
-.btn-facebook:hover {
-  color: #204385;
+.btn-facebook:hover, .btn-facebook:hover * {
+  color: #204385 !important;
 }
 
-.btn-dribbble:hover {
-  color: #D92C85;
+.btn-dribbble:hover, .btn-dribbble:hover * {
+  color: #D92C85 !important;
 }
 
-.btn-instagram:hover {
-  color: #CD486B;
+.btn-instagram:hover, .btn-instagram:hover * {
+  color: #CD486B !important;
 }
 
-.btn-linkedin:hover {
-  color: #015786;
+.btn-linkedin:hover, .btn-linkedin:hover * {
+  color: #015786 !important;
 }
 
 .btn-pinterest:hover {
-  color: #CA2128;
+  color: #CA2128 !important;
 }
 
 .btn-google:hover {
-  color: #D3492C;
+  color: #D3492C !important;
 }
 
-.btn-github:hover {
-  color: #333333;
+.btn-github:hover, .btn-github:hover *{
+  color: #333333 !important;
 }
 
-.btn-tumblr:hover {
-  color: #35465c;
+.btn-tumblr:hover, .btn-tumblr:hover *{
+  color: #35465c !important;
 }
-
-
-
 
 .btn {
   color: #fff;

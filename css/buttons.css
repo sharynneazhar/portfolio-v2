@@ -66,11 +66,11 @@ Buttons & icons
   color: #015786 !important;
 }
 
-.btn-pinterest:hover {
+.btn-pinterest:hover, .btn-pinterest:hover * {
   color: #CA2128 !important;
 }
 
-.btn-google:hover {
+.btn-google:hover, .btn-google:hover * {
   color: #D3492C !important;
 }
 

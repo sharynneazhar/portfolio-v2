@@ -113,8 +113,10 @@ Layout
 }
 
 #page-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100% !important;
-  text-align: center;
   background-color: rgba(51, 54, 64, .9);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -127,7 +129,6 @@ Layout
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   color: #FFF;
-  padding-top: 25%;
 }
 
 #page-welcome header h1 {
@@ -169,11 +170,7 @@ Layout
 }
 
 #page-about .profile {
-  width: 250px;
-  height: auto;
   margin-top: 5px;
-  margin-left: 80px;
-  border: 2px solid #333;
 }
 
 #page-about .profile-bio {

@@ -291,6 +291,7 @@ Portfolio hover effect
 
 .hovereffect:hover .overlay {
   opacity: 1;
+  cursor: zoom-in;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -350,6 +351,37 @@ Portfolio hover effect
 
 .hovereffect .info {
   color: #fff;
+}
+
+/* ==========================================================================
+Featherlight Overrides
+========================================================================== */
+.featherlight .featherlight-content {
+  padding: 0;
+  border: 0;
+}
+
+.featherlight .featherlight-previous {
+  top: 0;
+  left: 0;
+  right: 85%;
+}
+
+.featherlight .featherlight-next {
+  top: 0;
+  left: 85%;
+  right: 0;
+}
+
+.featherlight .featherlight-previous:hover,
+.featherlight .featherlight-next:hover {
+  background: rgba(54, 54, 54, 0.5);
+}
+
+.featherlight .featherlight-previous span,
+.featherlight .featherlight-next span {
+  width: 80%;
+  font-size: 36px;
 }
 
 

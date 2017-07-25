@@ -21,6 +21,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+  <!-- Featherlight -->
+  <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.7/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.7/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/buttons.css">
@@ -106,39 +110,45 @@
         <div class="spacer"></div>
         <p class="section-subtitle">Recent web and graphic design work.</p>
       </header>
-      <div class="design-group-container center-block text-center">
+      <div class="design-group-container center-block text-center" data-featherlight-gallery data-featherlight-filter="a">
         <div class="design-group">
-          <div class="hovereffect">
-            <img class="img-responsive" src="img/portfolio/hana/hana.png" alt="Hana">
-            <a class="info" href="https://hana-jobs.herokuapp.com/" target="_blank">
-              <div class="overlay">
-                <h2>Hana</h2>
-                <p>On-demand staffing platform.</p>
+          <a href="img/portfolio/hana/hana.png">
+            <div class="hovereffect">
+              <img class="img-responsive" src="img/portfolio/hana/hana.png" alt="Hana">
+              <div class="info">
+                <div class="overlay">
+                  <h2>Hana</h2>
+                  <p>On-demand staffing platform.</p>
+                </div>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="design-group">
-          <div class="hovereffect">
-            <img class="img-responsive" src="img/portfolio/top-setup/top-setup-desktop.png" alt="Top Setup">
-            <a class="info" href="https://topsetup.herokuapp.com/" target="_blank">
-              <div class="overlay">
-                <h2>Top Setup</h2>
-                <p>Showcase of the top gaming and office setups on the internet.</p>
+          <a href="img/portfolio/top-setup/top-setup-desktop.png">
+            <div class="hovereffect">
+              <img class="img-responsive" src="img/portfolio/top-setup/top-setup-desktop.png" alt="Top Setup">
+              <div class="info" href="https://topsetup.herokuapp.com/" target="_blank">
+                <div class="overlay">
+                  <h2>Top Setup</h2>
+                  <p>Showcase of the top gaming and office setups on the internet.</p>
+                </div>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="design-group">
-          <div class="hovereffect">
-            <img class="img-responsive" src="img/portfolio/rate-my-campus/rate-my-campus-home.png" alt="Rate My Campus">
-            <a class="info" href="https://rate-my-campus.herokuapp.com/" target="_blank">
-              <div class="overlay">
-                <h2>Rate My Campus</h2>
-                <p>College campus reviews based on faculty, staff, and student feedback.</p>
+          <a href="img/portfolio/rate-my-campus/rate-my-campus-home.png">
+            <div class="hovereffect">
+              <img class="img-responsive" src="img/portfolio/rate-my-campus/rate-my-campus-home.png" alt="Rate My Campus">
+              <div class="info" href="https://rate-my-campus.herokuapp.com/" target="_blank">
+                <div class="overlay">
+                  <h2>Rate My Campus</h2>
+                  <p>College campus reviews based on faculty, staff, and student feedback.</p>
+                </div>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -300,9 +310,9 @@
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.7/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.7/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="https://use.fontawesome.com/31830dc8f3.js"></script>
   <script src="js/scrollto.js"></script>
   <script src="js/nav.js"></script>

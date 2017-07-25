@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   /* Scroll hire me button to contact page */
   $('.about-me').click(function() {
     $('html, body').animate({
@@ -13,7 +13,13 @@ $(document).ready(function() {
     $('ul.nav-pills li.active').removeClass('active')
     $(this).parent('li').addClass('active')
   })
-  
+
+  /* Featherlight gallery */
+  $('.design-group a').featherlightGallery({
+		galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
+		galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
+	});
+
   /* Scrollspy and scroll filter */
   $('#main-menu').onePageNav({
     currentClass: "active",
@@ -23,5 +29,5 @@ $(document).ready(function() {
     filter: ":not(#external)",
     easing: "swing"
   });
-  
+
 });
